@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0%;
+    text-align: center;
+    color: black;
+}
+.container{
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #081b31;
+    background-image: url(currency.jpg);
+}
+
+con2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.form1{
+    display: flex;
+    flex-direction: column;
+    gap: 2vh;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
+    height: 98%;
+}
+form select{
+    border: .08rem solid black;
+    border-radius: 0.60rem;
+}
+    
+form input{
+    width: 18vh;
+    border: .1vh solid black;
+}
+form input:hover{
+    cursor: pointer;
+}
+form select:hover{
+    cursor: pointer;
+}
+#in1{
+    width: 20vh;
+    height: 5vh;
+    border-radius: 0.75rem;
+}
+#result{
+    width: 70vh;
+    height: 5vh;
+    border-radius: 0.75rem;
+    margin-top: 2vh;
+    background-color: white;
+    font-size: large;
+    color: navy;
+}
+
+#convert{
+    width: 15.5vh;
+    border: .1vh solid black;
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+
+#reset{
+    border: .1vh solid black;
+    border-radius: 0.75rem;
+}
+#exIcon{
+    color:aliceblue;
+}
+form img{
+    max-width: 3.75rem;
+}
+
+#to{
+    color: aliceblue;
+}
+.msg{
+    color: aliceblue; 
+    font-size: 3vh;
+    font-weight: bold;
+    margin-top: 6vh;
+    border: 0.06rem solid aliceblue;
+    border-radius: 1rem;
+    padding: 1vh;
+}

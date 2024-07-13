@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32 copy.png">
+    <link rel="stylesheet" href="style.css">
+    <link
+     rel="stylesheet" 
+     href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" 
+     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" 
+     crossorigin="anonymous" 
+     referrerpolicy="no-referrer" />
+</head>
+<body>
+    <h2><u>CURRENCY CONVERTER</u></h2>
+    <div class="container">
+       <form class="form1">
+        <input id="in1" type="number" name="amount" placeholder="ENTER AMOUNT">
+            <div class="con2">
+                <img src="https://flagsapi.com/US/shiny/64.png" id="flag1">
+                <select name="from" id="sel1">
+                </select>
+                &nbsp;<span id="to">TO</span>&nbsp;
+                <select name="to" id="sel2">
+                </select>
+                <img src="https://flagsapi.com/IN/shiny/64.png" id="flag2">
+        </div>
+          <div>
+            <input type="submit" name="submit" value="Convert" id="convert">
+            <i class="fa-solid fa-arrow-right-arrow-left" id="exIcon"></i><br><br>
+            <input type="reset" name="reset" value="Reset" id="reset">
+        </div><br>
+        <input type="text" name="Result" id="result" placeholder="Result" disabled>
+        <div class="msg">1USD = 80INR</div>
+           </form>
+        </div>
+
+        <h3>Powered by <a href="https://currencybeacon.com">Currency Beacon</a></h3>
+ <script src="countryCodes.js"></script> 
+ <script src="app.js"></script>  
+    
+</body>
+</html>
